@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/one" android:checkableBehavior="single">
+        <item
+            android:id="@+id/chemist"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Chemist Locate" />
+    </group>
+
+    <group android:id="@+id/two" android:checkableBehavior="single">
+        <item
+            android:id="@+id/blood_bank"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Blood Bank Locate" />
+    </group>
+
+    <group android:id="@+id/three" android:checkableBehavior="single">
+        <item
+            android:id="@+id/jan_aushadi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Jan Aushadi Kendra Locate" />
+    </group>
+
+    <item android:title="Chemist Services">
+        <menu>
+            <item
+                android:id="@+id/cmap"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Chemist Map" />
+            <item
+                android:id="@+id/clist"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Chemist Map" />
+        </menu>
+    </item>
+
+    <item android:title="Blood Bank Services">
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Blood Bank" />
+        </menu>
+    </item>
+    <item android:title="Jan Aushadi Services">
+        <menu>
+            <item
+                android:id="@+id/janmap"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Jan Aushadi Map" />
+            <item
+                android:id="@+id/janspin"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Jan Aushadi " />
+        </menu>
+    </item>
+    <item android:title="Jan Aushadi Services">
+        <menu>
+            <item
+                android:id="@+id/pro"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Chemist Login" />
+            </menu>
+    </item>
+
+
+</menu>
